@@ -30,8 +30,26 @@ def three():
     print("[     ]")
     print("[-----]")
 
+def four():
+    print("[-----]")
+    print("[0   0]")
+    print("[     ]")
+    print("[0   0]")
+    print("[-----]")
 
+def five():
+    print("[-----]")
+    print("[0   0]")
+    print("[  0  ]")
+    print("[0   0]")
+    print("[-----]")
 
+def six():
+    print("[-----]")
+    print("[0 0 0]")
+    print("[     ]")
+    print("[0 0 0]")
+    print("[-----]")
 def roll_dice():
     while True:
         num = random.randint(1, 6)
@@ -44,6 +62,15 @@ def roll_dice():
             return
         if num == 3:
             three()
+            return
+        if num == 4:
+            four()
+            return
+        if num == 5:
+            five()
+            return
+        if num == 6:
+            six()
             return
         else:
             print("Something went wrong :( )")
