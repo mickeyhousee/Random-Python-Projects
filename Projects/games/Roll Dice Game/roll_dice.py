@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 #MADE BY: mickeyhousee
 
-# TODO - ACABAR O RESTO DAS FUNÇÕES
-
 import random
 import os
 
 def clear_console():
-    os.system("cls")
+    os.system("cls") # Change this to "clear" for linux OS
 
 def one():
     print("[-----]")
